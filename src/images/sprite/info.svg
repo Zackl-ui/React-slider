@@ -1,0 +1,17 @@
+var SpriteSymbol = require("svg-baker-runtime/browser-symbol");
+var sprite = require("svg-sprite-loader/runtime/browser-sprite.build");
+var symbol = new SpriteSymbol({
+  "id": "info_a3035705b91d5903363af7d14ec7eb2a",
+  "use": "info_a3035705b91d5903363af7d14ec7eb2a-usage",
+  "viewBox": "0 0 20 20",
+  "content": "<symbol viewBox=\"0 0 20 20\" id=\"info_a3035705b91d5903363af7d14ec7eb2a\">\n  <path d=\"M10 0C4.467 0 0 4.467 0 10s4.467 10 10 10 10-4.467 10-10S15.533 0 10 0zm1.578 15.556a.93.93 0 0 1-.911.91H9.289a.93.93 0 0 1-.911-.91V9.733c0-.51.422-.91.91-.91h1.379a.93.93 0 0 1 .91.91v5.823zm-1.6-8.245a1.883 1.883 0 0 1-1.867-1.889c0-1.044.845-1.889 1.867-1.889 1.044 0 1.889.845 1.889 1.89a1.887 1.887 0 0 1-1.89 1.888z\" fill=\"#FFF\" />\n</symbol>"
+});
+var result = sprite.add(symbol);
+module.exports = symbol
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./src/images/sprite/info.svg
+// module id = 120
+// module chunks = 0

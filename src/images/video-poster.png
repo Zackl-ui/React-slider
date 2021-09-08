@@ -1,0 +1,8 @@
+module.exports = __webpack_public_path__ + "static/media/video-poster.ba924670.png";
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./src/images/video-poster.png
+// module id = 95
+// module chunks = 0

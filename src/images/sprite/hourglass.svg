@@ -1,0 +1,17 @@
+var SpriteSymbol = require("svg-baker-runtime/browser-symbol");
+var sprite = require("svg-sprite-loader/runtime/browser-sprite.build");
+var symbol = new SpriteSymbol({
+  "id": "hourglass_199c07d6e0bd10d16aafc9ad534eb77d",
+  "use": "hourglass_199c07d6e0bd10d16aafc9ad534eb77d-usage",
+  "viewBox": "0 0 20 24",
+  "content": "<symbol viewBox=\"0 0 20 24\" id=\"hourglass_199c07d6e0bd10d16aafc9ad534eb77d\">\n  <g stroke=\"#2BB293\" stroke-width=\"2\" fill=\"none\" fill-rule=\"evenodd\">\n    <path d=\"M3.8 17h12.4m.8 6v-1c0-4.4-1.7-8.3-4.1-10C15.3 10.3 17 6.4 17 2V1M3 1v1c0 4.4 1.7 8.3 4.1 10C4.7 13.7 3 17.6 3 22v1\" />\n    <path d=\"M1 1h18M1 23h18\" stroke-linecap=\"square\" />\n  </g>\n</symbol>"
+});
+var result = sprite.add(symbol);
+module.exports = symbol
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./src/images/sprite/hourglass.svg
+// module id = 101
+// module chunks = 0

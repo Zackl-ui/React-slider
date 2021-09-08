@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Samaritans",
+    "description": "Samaritans offer a safe place for you to talk 24/7, in your own way - about whatever’s getting to you.",
+    "phone": "116 123",
+    "url": "https://www.samaritans.org/"
+  },
+  {
+    "name": "Mind",
+    "description": "A UK charity that promotes the views and needs of people with mental health problems.",
+    "phone": "0300 123 3393",
+    "url": "https://www.mind.org.uk/"
+  },
+  {
+    "name": "Intrusive Thoughts",
+    "description": "Empowering the OCD community with educational resources, treatment info & support.",
+    "url": "https://www.intrusivethoughts.org/"
+  }
+]

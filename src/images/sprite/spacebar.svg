@@ -1,0 +1,17 @@
+var SpriteSymbol = require("svg-baker-runtime/browser-symbol");
+var sprite = require("svg-sprite-loader/runtime/browser-sprite.build");
+var symbol = new SpriteSymbol({
+  "id": "spacebar_87f1f030a8dcdecf0bbd53260fdec287",
+  "use": "spacebar_87f1f030a8dcdecf0bbd53260fdec287-usage",
+  "viewBox": "0 0 57 17",
+  "content": "<symbol viewBox=\"0 0 57 17\" id=\"spacebar_87f1f030a8dcdecf0bbd53260fdec287\">\n  <rect width=\"14\" height=\"53\" x=\"1309.09\" y=\"834.985\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" transform=\"rotate(-90 245.81 1079)\" rx=\"3\" />\n</symbol>"
+});
+var result = sprite.add(symbol);
+module.exports = symbol
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./src/images/sprite/spacebar.svg
+// module id = 121
+// module chunks = 0

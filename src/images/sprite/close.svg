@@ -1,0 +1,17 @@
+var SpriteSymbol = require("svg-baker-runtime/browser-symbol");
+var sprite = require("svg-sprite-loader/runtime/browser-sprite.build");
+var symbol = new SpriteSymbol({
+  "id": "close_b7cac5f8095ff4006df362d93583a338",
+  "use": "close_b7cac5f8095ff4006df362d93583a338-usage",
+  "viewBox": "0 0 44 44",
+  "content": "<symbol viewBox=\"0 0 44 44\" id=\"close_b7cac5f8095ff4006df362d93583a338\">\n  <path fill=\"currentColor\" d=\"M22 0C9.8 0 0 9.8 0 22s9.8 22 22 22 22-9.8 22-22S34.2 0 22 0zm3.2 22.4l7.5 7.5c.2.2.3.5.3.7s-.1.5-.3.7l-1.4 1.4c-.2.2-.5.3-.7.3-.3 0-.5-.1-.7-.3l-7.5-7.5c-.2-.2-.5-.2-.7 0l-7.5 7.5c-.2.2-.5.3-.7.3-.3 0-.5-.1-.7-.3l-1.4-1.4c-.2-.2-.3-.5-.3-.7s.1-.5.3-.7l7.5-7.5c.2-.2.2-.5 0-.7l-7.5-7.5c-.2-.2-.3-.5-.3-.7s.1-.5.3-.7l1.4-1.4c.2-.2.5-.3.7-.3s.5.1.7.3l7.5 7.5c.2.2.5.2.7 0l7.5-7.5c.2-.2.5-.3.7-.3.3 0 .5.1.7.3l1.4 1.4c.2.2.3.5.3.7s-.1.5-.3.7l-7.5 7.5c-.2.1-.2.5 0 .7z\" />\n</symbol>"
+});
+var result = sprite.add(symbol);
+module.exports = symbol
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./src/images/sprite/close.svg
+// module id = 124
+// module chunks = 0

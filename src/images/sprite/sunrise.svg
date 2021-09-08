@@ -1,0 +1,17 @@
+var SpriteSymbol = require("svg-baker-runtime/browser-symbol");
+var sprite = require("svg-sprite-loader/runtime/browser-sprite.build");
+var symbol = new SpriteSymbol({
+  "id": "sunrise_6f03da9023941180fbe789e88e8732ec",
+  "use": "sunrise_6f03da9023941180fbe789e88e8732ec-usage",
+  "viewBox": "0 0 24 21",
+  "content": "<symbol viewBox=\"0 0 24 21\" id=\"sunrise_6f03da9023941180fbe789e88e8732ec\">\n  <path d=\"M1 12h1m2-8l.7.7M12 1v1m7.7 2l-.7.7m4 7.3h-1M6 12c0-3.3 2.7-6 6-6s6 2.7 6 6M1 16h22M4 20h16\" stroke=\"#FFB55F\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"square\" />\n</symbol>"
+});
+var result = sprite.add(symbol);
+module.exports = symbol
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./src/images/sprite/sunrise.svg
+// module id = 100
+// module chunks = 0

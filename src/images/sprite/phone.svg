@@ -1,0 +1,17 @@
+var SpriteSymbol = require("svg-baker-runtime/browser-symbol");
+var sprite = require("svg-sprite-loader/runtime/browser-sprite.build");
+var symbol = new SpriteSymbol({
+  "id": "phone_9b7121d817c06fadd821b0cf80c0dccd",
+  "use": "phone_9b7121d817c06fadd821b0cf80c0dccd-usage",
+  "viewBox": "0 0 16 16",
+  "content": "<symbol viewBox=\"0 0 16 16\" id=\"phone_9b7121d817c06fadd821b0cf80c0dccd\">\n  <path d=\"M15.285 12.305l-2.578-2.594a1 1 0 0 0-1.416-.002L9 12 4 7l2.294-2.294a1 1 0 0 0 .001-1.414L3.715.708a1 1 0 0 0-1.415 0L.004 3.003 0 3c0 7.18 5.82 13 13 13l2.283-2.283a1 1 0 0 0 .002-1.412z\" fill=\"currentColor\" />\n</symbol>"
+});
+var result = sprite.add(symbol);
+module.exports = symbol
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./src/images/sprite/phone.svg
+// module id = 125
+// module chunks = 0
